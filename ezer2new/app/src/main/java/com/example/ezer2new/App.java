@@ -20,10 +20,10 @@ public class App extends Application {
         Parse.enableLocalDatastore(this);
 
         Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-                .applicationId("myappID")
+                .applicationId("HERE-APP-ID")
                 // if defined
-                .clientKey("eXYDdgtInyo5")
-                .server("http://3.23.94.236/parse/")
+                .clientKey("HERE-CLIENT-KEY")
+                .server("HERE-SERVER-PATH")
                 .build()
         );
               ParseACL defaultACL= new ParseACL();
